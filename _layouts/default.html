@@ -1,0 +1,21 @@
+<html lang='en'>
+  {% include head.html %}
+  <body>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      <div class='row'>
+        <div class='large-12 columns'>
+          <small>
+            &copy;
+            <time datetime='{{ site.time | date_to_xmlschema }}'>
+              {{ site.time | date: '%Y' }}.
+            </time>
+            All rights reserved.
+          </small>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

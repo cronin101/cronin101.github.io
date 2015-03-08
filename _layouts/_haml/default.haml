@@ -1,0 +1,14 @@
+%html{ lang: 'en' }
+  {% include head.html %}
+  %body
+    %main
+      {{ content }}
+
+    %footer
+      .row
+        .large-12.columns
+          %small
+            &copy;
+            %time{datetime: '{{ site.time | date_to_xmlschema }}'}
+              {{ site.time | date: '%Y' }}.
+            All rights reserved.

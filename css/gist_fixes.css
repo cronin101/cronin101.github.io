@@ -1,0 +1,16 @@
+.gist .gist-data {
+  padding: 10px;
+}
+
+.gist .gist-file {
+  padding: 10px;
+  border: none !important;
+}
+
+.gist .gist-meta{
+  margin-top: 10px;
+}
+
+.gist p {
+  font-size: smaller;
+}
